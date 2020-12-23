@@ -27,13 +27,13 @@ function Home({ data }) {
             <Hero></Hero>
           </div>
         </section>
-        <section className="container px-4 mx-auto pt-20 md:pt-36">
+        <section className="container px-10 mx-auto pt-20 md:pt-36">
           <Clients></Clients>
         </section>
-        <section className="container px-4 mx-auto pt-28">
+        <section className="container px-10 mx-auto pt-28">
           <VideoUndangan></VideoUndangan>
         </section>
-        <section  className="container px-4 mx-auto pt-20 md:pt-24">
+        <section  className="container px-10 mx-auto pt-20 md:pt-24">
           <Cources data={data}></Cources>
         </section>
         <section className="mt-24 bg-indigo-1000 py-12">
