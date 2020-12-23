@@ -24,11 +24,11 @@ export default function Hero() {
           <input
             type="text"
             onChange={(event) => setState(event.target.value)}
-            className="bg-white focus:outline-none border-0 md:px-6 py-3 md:w-1/2"
+            className="bg-white focus:outline-none border-0 px-6 md:px-6 py-3 md:w-2/5"
             value={state}
             placeholder=" Your Email Address"
           />
-          <button className="bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-6 py-3">
+          <button className="bg-orange-500 hover:bg-orange-400 transition-all duration-200 focus:outline-none shadow-inner text-white px-4 py-3">
             Daftar Now
           </button>
         </form>
