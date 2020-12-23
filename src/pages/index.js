@@ -19,18 +19,18 @@ function Home({ data }) {
       </Head>
 
       <main>
-        <section className="header-clipping pt-10 min-h-screen md:min-h-0">
+        <section className="header-clipping pt-5 md:pt-10 min-h-screen md:min-h-0">
           <div className="sunshine max-w-full"></div>
           <Circle className="absolute left-0 bottom-0"></Circle>
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-12">
             <Header></Header>
             <Hero></Hero>
           </div>
         </section>
-        <section className="container px-4 mx-auto pt-28">
+        <section className="container px-4 mx-auto pt-20 md:pt-28">
           <Clients></Clients>
         </section>
-        <section className="container px-4 mx-auto pt-20">
+        <section className="container px-4 mx-auto pt-28">
           <VideoUndangan></VideoUndangan>
         </section>
         <section  className="container px-4 mx-auto pt-20 md:pt-24">

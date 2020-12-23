@@ -50,7 +50,6 @@
 
 
 
-
 .item figure.item-image {
     position: relative;
     perspective: 100px;
@@ -70,7 +69,7 @@
     position: absolute;
     width: 46px;
     height: 46px;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform-origin: bottom;
     opacity: 0;
@@ -138,6 +137,7 @@
 .yt3 {
     margin-bottom: 20px;
 }
+
 
 h1.textLeading {
     font-size: 3rem;

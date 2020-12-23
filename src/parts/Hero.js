@@ -15,7 +15,7 @@ export default function Hero() {
           <span className="text-teal-400">The New</span> Way to
           <br className="hidden md:block" /> Achieve Good <span className="text-teal-400">Skills</span>
         </h1>
-        <p className="text-white text-lg font-light mb-8">
+        <p className="text-white text-base md:text-lg font-light mb-8">
           We provide tons of pathskill that you <br className="hidden md:block" /> can choose and focus on
         </p>
   
