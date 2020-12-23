@@ -24,7 +24,7 @@ export default function Hero() {
           <input
             type="text"
             onChange={(event) => setState(event.target.value)}
-            className="bg-white focus:outline-none border-0 px-6 md:px-6 py-3 md:w-2/5"
+            className="bg-white focus:outline-none border-0 px-6 md:px-6 py-3 md:w-1/2"
             value={state}
             placeholder=" Your Email Address"
           />
